@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLVariant", "URLVariant\UR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{57A5C50F-920C-4037-9267-0A6D1A33DA1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{0D6E76DF-181C-42DB-A718-D1074FE5377B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{57A5C50F-920C-4037-9267-0A6D1A33DA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A5C50F-920C-4037-9267-0A6D1A33DA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A5C50F-920C-4037-9267-0A6D1A33DA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6E76DF-181C-42DB-A718-D1074FE5377B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6E76DF-181C-42DB-A718-D1074FE5377B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6E76DF-181C-42DB-A718-D1074FE5377B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6E76DF-181C-42DB-A718-D1074FE5377B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

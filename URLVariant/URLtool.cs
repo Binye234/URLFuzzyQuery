@@ -19,7 +19,8 @@ namespace URLVariant
         /// <returns></returns>
         public static bool IsURLString(string UrlString)
         {
-            string regex = @"^(http://|https//)?[a-zA-Z0-9]+(.net|.com|.cn)?$";
+            // string regex = @"^(http://|https//)?[a-zA-Z0-9\.]+(.net|.com|.cn)?$";
+            string regex = @"[a-zA-z]+://[^\s]*";
             return Regex.IsMatch(UrlString, regex);
         }
         /// <summary>

@@ -11,17 +11,10 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            var a = URLtool.GetURLInnerString(@"https://www.hao123.com");
-            string[] head = { @"http://www.", @"https://www." };
-            string[] footer = { ".net", ".com", ".cn" };
-            URLVariantClass uRLVariantClass = new URLVariantClass(head,footer);
-            var list = uRLVariantClass.URLstringCreate(a);
-            foreach (var item in list)
-            {
-                Console.WriteLine(item);
-            }
-            Console.WriteLine(list.Count);
-
+            URLVariantClass uRLVariantClass = new URLVariantClass(new string[] { @"https://www.", @"http://www." }, new string[] { ".net", ".com", ".cn" });
+            var list = uRLVariantClass.URLstringCreate("hao123");
+            URLClient uRLClient = new URLClient(a => Console.WriteLine(a));
+            uRLClient.UrlListQuery(list);
 
 
             Console.ReadKey();
